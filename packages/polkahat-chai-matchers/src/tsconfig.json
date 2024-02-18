@@ -1,0 +1,11 @@
+{
+  "extends": "../../../config/typescript/tsconfig.json",
+  "compilerOptions": {
+    "outDir": "../",
+    "rootDirs": ["."],
+    "composite": true,
+    "types": ["node", "chai"]
+  },
+  "include": ["./**/*.ts"],
+  "exclude": [],
+}
